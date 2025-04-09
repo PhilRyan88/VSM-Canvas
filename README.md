@@ -1,6 +1,3 @@
-Sure! Here's a sample `README.md` file that you can use for your project. This README includes basic information about the project, how to set it up, and how to use it.
-
-```markdown
 # JointJS Flowchart Application
 
 This is a web application built with React and JointJS that allows users to create and manipulate flowcharts on a canvas. The application includes features for adding shapes, creating connections, and undoing actions using the keyboard (`Ctrl + Z`).
@@ -50,7 +47,7 @@ Make sure you have the following installed:
    npm run dev
    ```
 
-4. Open the application in your browser at [http://localhost:3000](http://localhost:3000).
+4. Open the application in your browser at [http://localhost:5173/](http://localhost:5173/).
 
 ## Usage
 
@@ -78,19 +75,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-If you encounter any issues, feel free to open an issue on the GitHub repository, and we will try to assist you!
-
-```
-
-### Explanation:
-
-- **Project Title**: Describes the purpose of the application.
-- **Features**: Lists the main functionalities of the app.
-- **Technologies Used**: Includes React, JointJS, CSS, and Vite, which are all part of the project stack.
-- **Setup Instructions**: Provides step-by-step instructions on how to clone, install dependencies, and run the project locally.
-- **Usage**: Describes how to interact with the app, including how to drag shapes, create links, remove elements, and undo actions.
-- **Project Structure**: Gives an overview of the important files and their responsibilities.
-- **License**: It’s standard to include a license section, and here I’ve used the MIT License as an example.
-- **Acknowledgments**: Gives credit to the libraries used in the project.
-
-You can replace the placeholders (like `https://github.com/yourusername/jointjs-flowchart-app.git`) with the actual project information. This README should provide a clear guide to both developers and users interested in your project!
