@@ -1,0 +1,46 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .toolbar {
+    width: 200px;
+    background: #f1f1f1;
+    padding: 10px;
+    overflow-y: auto;
+    border-right: 1px solid #ccc;
+  }
+  
+  .shape-item {
+    margin-bottom: 10px;
+    cursor: grab;
+    text-align: center;
+  }
+  
+  .shape-preview {
+    border: 1px solid #999;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .shape-preview.rect {
+    width: 100px;
+    height: 40px;
+  }
+  
+  .shape-preview.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .canvas-wrapper {
+    flex: 1;
+    position: relative;
+  }
+  
+  .canvas-container {
+    width: 100%;
+    height: 100%;
+  }
+  
